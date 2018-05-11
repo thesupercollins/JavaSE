@@ -40,6 +40,6 @@ public class EmployeeTimed extends Employee implements IEmployee {
 
     @Override
     public String toString() {
-        return super.toString() + ", timed salary is " + this.typicalSalary + ", month salary is " + this.CalculateSalary();
+        return super.toString() + ", часовая оплата " + this.typicalSalary + ", зарплата " + this.CalculateSalary();
     }
 }

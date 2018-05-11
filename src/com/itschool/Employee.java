@@ -47,6 +47,6 @@ abstract public class Employee implements IEmployee {
 
     @Override
     public String toString() {
-        return "Employee: " + this.name + ", " + this.ID;
+        return "Работник: " + this.name + ", " + this.ID;
     }
 }
